@@ -12,3 +12,13 @@ class MangaCollecterItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+
+class MangaChapterItem(scrapy.Item):
+    book = scrapy.Field()
+    version = scrapy.Field()
+    chapter_no = scrapy.Field()
+    title = scrapy.Field()
+    pages = scrapy.Field()
+    chapter_url = scrapy.Field()
+    store_dir = scrapy.Field()

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for manga_collecter project
+# Scrapy settings for manga_collector project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,13 +9,13 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'manga_collecter'
+BOT_NAME = 'manga_collector'
 
-SPIDER_MODULES = ['manga_collecter.spiders']
-NEWSPIDER_MODULE = 'manga_collecter.spiders'
+SPIDER_MODULES = ['manga_collector.spiders']
+NEWSPIDER_MODULE = 'manga_collector.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-# USER_AGENT = 'manga_collecter (+http://www.yourdomain.com)'
+# USER_AGENT = 'manga_collector (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -46,13 +46,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    'manga_collecter.middlewares.MangaCollecterSpiderMiddleware': 543,
+#    'manga_collector.middlewares.MangaCollecterSpiderMiddleware': 543,
 # }
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 # DOWNLOADER_MIDDLEWARES = {
-#    'manga_collecter.middlewares.MangaCollecterDownloaderMiddleware': 543,
+#    'manga_collector.middlewares.MangaCollecterDownloaderMiddleware': 543,
 # }
 DOWNLOADER_MIDDLEWARES = {
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
@@ -68,7 +68,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 # ITEM_PIPELINES = {
-#    'manga_collecter.pipelines.MangaCollecterPipeline': 300,
+#    'manga_collector.pipelines.MangaCollecterPipeline': 300,
 # }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
